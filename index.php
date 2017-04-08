@@ -89,17 +89,11 @@
       <div id="collapse1" class="panel-collapse collapse in">
         <div class="panel-body">
             <div class="container-fluid">
-  
               <div class="row">
-             
-                
-                 
-                    <button id="togg" style="background:#cd3f0e; color: #fff; width: 100px; height: 40px;font-size: 15px; margin-left: 490px" >Toggle</buton>
-              
+                <button id="togg" style="background:#cd3f0e; color: #fff; width: 100px; height: 40px;font-size: 15px; margin-left: 490px" >Toggle</buton>
               </div>
             </div>
-
-        </div>
+         </div>
       </div>
     </div>
 
@@ -130,9 +124,8 @@
       </a>
       <div id="collapse3" class="panel-collapse collapse">
         <div class="panel-body" style="color:  #505050; margin-left: 500px;">
-        <p>Check Below</p>
-   
-</div>
+          <p>Check Below</p>
+        </div>
       </div>
     </div>
 
@@ -142,7 +135,7 @@
 
 <div id = "main_cont">
   <div id = "firstTask" style="" >
-    <div id = "taj" style="box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2); width: 150px;">
+    <div id = "taj" style="box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2); width: 150px; margin-left: 20px;">
       <img  src="tajmahal.jpg" style="width: 150px; height: 150px; ">
       <div class="container">
         <p style="margin-left: 30px;">Taj Mahal  </p>
