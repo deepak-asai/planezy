@@ -1,0 +1,35 @@
+  #headingbox{
+    background-color:  #6c6d6f;
+    color: #fff;
+  }
+  
+    
+
+
+   
+    #line{
+      border-bottom: 1px solid  #716c6c;
+      margin-top: 30px;
+      margin-left: -300px;
+      width: 2000px;
+
+    }
+  
+   
+    #firstTask, #thirdTask{
+      border: 1px solid   #c8c8c8;
+      width: 500px;
+      height: 500px;
+      margin-left: 500px;
+      padding-top: 150px;
+      padding-left: 150px;
+      box-shadow: 10px 10px 5px grey;
+    }
+     #secondTask{
+     
+      width: 500px;
+      height: 500px;
+      margin-left: 500px;
+      padding-top: 150px;
+      padding-left: 150px;
+    }
