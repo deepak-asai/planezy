@@ -3,7 +3,15 @@
     color: #fff;
   }
   
-    
+  #inp input {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+  }
+  #inp input:focus{
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+  }
 
 
    

@@ -106,7 +106,7 @@
         </div>
       </a>
       <div id="collapse2" class="panel-collapse collapse">
-        <div class="panel-body" style="color:  #505050">
+        <div class="panel-body" id="inp" style="color:  #505050">
             <input id="txtChar" style=" margin-left: 450px;" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
           <button id="calc" style="background:#cd3f0e; color: #fff; width: 100px; height: 40px;font-size: 15px; margin-left: 477px; margin-top:10px">Calculate</button>
         </div>
@@ -147,7 +147,7 @@
     <p>The Pattern is printed here</p>
     <p id = "disp_2nd"></p>
   </div>
-  <div id = "thirdTask" style="display: none">        
+  <div id = "thirdTask"   style="display: none">        
         <?php 
           echo "<select id='main' style='margin-left:-30px; margin-top:60px; width:130px;'>";
             foreach ($cities as $key => $value) {
@@ -156,7 +156,7 @@
           echo "</select>";
 
           foreach ($cities as $key => $value) {
-            echo "<select class='sublist' id='$key' style='margin-left:20px; width:130px;'>";
+            echo "<select class='sublist' id='$key' style='margin-left:17px; width:130px;'>";
             foreach ($value as $item) {
               echo "<option value='$item'>$item</option>";
             }
@@ -166,6 +166,9 @@
   </div>
 </div>
 </div>
+
+
+
 
 <div id="line"></div>
 <div style="text-align: center;"> 
@@ -182,6 +185,9 @@ $("#main").change(function () {
 });
 $("#main").trigger("change");
 </script>
+
+
+
 
 </body>
 </html>
