@@ -147,14 +147,16 @@
     <p>The Pattern is printed here</p>
     <p id = "disp_2nd"></p>
   </div>
-  <div id = "thirdTask"   style="display: none">        
+  <div id = "thirdTask"   style="display: none">    
+        <label id="firstlabel">    
         <?php 
           echo "<select id='main' style='margin-left:-30px; margin-top:60px; width:130px;'>";
             foreach ($cities as $key => $value) {
               echo "<option value='$key'>$key</option>";
             }
           echo "</select>";
-
+          echo "</label>";
+          echo "<label id='secondlabel'>";
           foreach ($cities as $key => $value) {
             echo "<select class='sublist' id='$key' style='margin-left:17px; width:130px;'>";
             foreach ($value as $item) {
@@ -163,11 +165,10 @@
             echo "</select>";
           }
         ?>
+        </label>
   </div>
 </div>
 </div>
-
-
 
 
 <div id="line"></div>
